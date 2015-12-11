@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clearfix</title>
+  <!-- importei o mesmo css do float ok :) -->
+  <link rel="stylesheet" href="../float/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">Agora sim</h1>
+
+
+  <div class="section">
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+    <p>Um div com um texto normal</p>
+  </div>
+
+  <div class="section clearfix">
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+    <p class="clearfix">Um div com um texto normal</p>
+  </div>
+
+  <div class="section">
+    <p>Um div com um texto normal</p>
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+  </div>
+
+  <div class="section clearfix">
+    <p>Um div com um texto normal</p>
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <p>Um div com um texto normal</p>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+  </div>
+
+  <div class="section clearfix">
+    <div class="float-left float-1">
+      <p>Agora um bloco flutuante para esquerda com texto bem maior</p>
+    </div>
+    <p>Um div com um texto normal, sem dar clearfix aqui</p>
+    <div class="float-right float-2">
+      <p>Agora um bloco flutuante para direita com texto bem maior também</p>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <p>E se a texto não for grande o suficiente para preencher o div? </p>
+    <p>
+      <img src="../img/star-wars.jpg" class="float-right">
+    </p>
+  </div>
+
+  <div class="clearfix">&nbsp;</div>
+
+  <div class="section clearfix">
+    <p>Então usamos clearfix :) </p>
+    <p>
+      <img src="../img/star-wars.jpg" class="float-right">
+    </p>
+  </div>
+
+  <div class="section-float">Olha aí, declarado primeiro</div>
+  <div class="section">
+    Declarado depois e invadiu o de cima
+  </div>
+
+  <div class="section-float">Olha aí, declarado primeiro</div>
+  <div class="section clearfix">
+    Declarado depois e invadiu o de cima
+  </div>
+
+</body>
+</html>

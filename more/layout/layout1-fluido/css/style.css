@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.limiter {
+  margin: 3% auto;
+  max-width: 90%;
+}
+
+.container {
+  margin: 0 auto;
+  background: #eee;
+}
+
+.header {
+  margin: 0 auto;
+  background: #A6E7E7;
+}
+
+.main {
+  margin: 0 auto;
+  background: #ddd;
+  height: 400px; /*   height agora aqui */
+}
+
+.side {
+  margin: 0 auto;
+  float: left;
+  background: #E57A8E;
+  width: 30%;
+  height: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  float: right;
+  width: 70%;
+  height: 100%;
+  background: #E7E965;
+}
+
+.footer {
+  margin: 0 auto;
+  background: #B4F3A7;
+  clear:both;
+}
+
+/*usado apenas no "melhorado"*/
+.box {
+  padding: 20px;
+}
+
+
+
+

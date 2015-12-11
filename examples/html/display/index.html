@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="red">
+    Primeiro  {display:block}
+    <div class="green">
+      Segundo {display:block}
+    </div>
+    <div class="blue">
+      Terceiro {display:block}
+    </div>
+  </div>
+
+  <div class="red">
+    Primeiro  {display:block}
+    <span class="green">
+      Primeiro {display:inline}
+    </span>
+    <span class="blue">
+      Segundo {display:inline}
+    </span>
+    <div class="blue">
+      Segundo {display:block}
+      <span class="red">Terceiro {display: inline}</span>
+    </div>
+  </div>
+
+  <div class="red">
+    Vamos usar um inline-block aqui e continuar <div class="inline-block">
+      Note que ele fica <strong>inline</strong>, mas se comporta como um <strong>block</strong>, mas nos Explorer 6 e 7 o valor inline-block funciona somente para os elementos HTML já sejam display: inline.
+    </div>
+    nossa linha normalmente aqui.
+  </div>
+
+</body>
+</html>

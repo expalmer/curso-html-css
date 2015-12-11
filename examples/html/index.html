@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Examples</title>
+</head>
+<body>
+  <script>
+  var ul = document.createElement('ul');
+  document.body.appendChild( ul );
+  [
+    'display',
+    'margin',
+    'box-model',
+    'position',
+    'float',
+    'clearfix',
+    'width-com-porcentagem',
+    'media-queries'
+  ].forEach(function( x ) {
+      var li = document.createElement('li');
+      li.innerHTML = '<a href="' + x + '/index.html">' + x.toUpperCase() + ' </a>';
+      ul.appendChild(li);
+    });
+  </script>
+</body>
+</html>

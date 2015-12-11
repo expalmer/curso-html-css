@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+.red, .green, .blue {
+  margin: 10px;
+  padding: 10px;
+}
+
+.red {
+  border: solid 1px #e34;
+  background: #FFF2F3;
+}
+
+.green {
+  border: solid 1px #0A0;
+  background: #EAF4F1;
+}
+
+.blue {
+  border: solid 1px #00A;
+  background: #F5FAFF;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  border: solid 1px #000;
+  background: #eee;
+}

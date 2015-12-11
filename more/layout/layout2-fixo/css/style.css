@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 40px auto;
+  width: 960px;
+  background: #eee;
+  overflow: hidden; /* importante aqui */
+}
+
+.header {
+  margin: 20px;
+  padding: 20px;
+  width: 880px;
+  background: #A6E7E7;
+}
+
+.main {
+  margin: 0 auto;
+  width: 960px;
+  background: #ddd;
+  overflow: hidden; /* importante aqui */
+}
+
+.side {
+  margin: 0 20px;
+  float: left;
+  background: #E57A8E;
+  padding: 20px;
+  width: 220px;
+  height: 400px;
+}
+
+.content {
+  margin: 0 20px 0 0;
+  padding: 20px;
+  float: right;
+  width: 600px;
+  height: 400px;
+  background: #E7E965;
+}
+
+.footer {
+  margin: 20px;
+  padding: 20px;
+  width: 880px;
+  background: #B4F3A7;
+  clear:both;
+
+}

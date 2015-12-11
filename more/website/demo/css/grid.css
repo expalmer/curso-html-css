@@ -1,0 +1,96 @@
+/* GRID */
+/*border-box para os dois elementos*/
+.row, .col {
+  box-sizing: border-box;
+}
+/*limpando os floats*/
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.col {
+  position: relative;
+  float: left;
+}
+
+.col + .col {
+  margin-left: 1.6%;
+}
+
+/* gutters
+  mr = margem em porcentagem
+  mp = margem em pixel
+  mc = máximo de colunas
+  mr = mp / mc
+*/
+
+/* largura das colunas
+  12 colunas
+  scw = largura da coluna única
+  m = margin (1.6%)
+  mc = máximo de colunas (12)
+  scw = (100 – (m * (mc – 1))) / mc
+  scw = (100 - (1.6 * (12-1))) / 12 = 6.86666666667
+
+  agora podemos calcular a largura das colunas
+  cw = largura da coluna
+  scw = largura da coluna única (6.86666666667%)
+  cs = column span (1-12) 2,3,4,5,6,7,8,9,10,11 todos spans
+  m = margin (1.6%)
+  cw = (scw * cs) + (m * (cs – 1))
+  cw = (6.86666666667 * 12) + (1.6 * (12 – 1))
+
+  // http://tableless.com.br/entendendo-sistemas-de-grid-css-do-zero/
+*/
+
+.col-1 {
+  width: 6.86666666667%;
+}
+
+.col-2 {
+  width: 15.3333333333%;
+}
+
+.col-3 {
+  width: 23.8%;
+}
+
+.col-4 {
+  width: 32.2666666667%;
+}
+
+.col-5 {
+  width: 40.7333333333%;
+}
+
+.col-6 {
+  width: 49.2%;
+}
+
+.col-7 {
+  width: 57.6666666667%;
+}
+
+.col-8 {
+  width: 66.1333333333%;
+}
+
+.col-9 {
+  width: 74.6%;
+}
+
+.col-10 {
+  width: 83.0666666667%;
+}
+
+.col-11 {
+  width: 91.5333333333%;
+}
+
+.col-12 {
+  width: 100%;
+}

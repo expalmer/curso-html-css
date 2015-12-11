@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+.title {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.section-float {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  background: rgba(25,255,255,.8);
+}
+
+.section {
+  margin: 80px auto;
+  padding: 20px;
+  width: 700px;
+  background: rgba(10,10,5,0.3);
+}
+
+.section > p {
+  background: rgba(1,160,112,0.4);
+}
+
+.float-1, .float-2 {
+  background: rgba(100,0,0,0.3);
+  color: #fff;
+  width: 200px;
+}
+.float-2 {
+  background: rgba(1,0,100,0.3);
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}

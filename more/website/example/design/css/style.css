@@ -1,0 +1,265 @@
+/* CSS Mini Reset */
+html, body, div, form, fieldset, legend, label {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; margin: 0; padding: 0;}
+img { border: 0; }
+
+body {
+  font-family: Arial;
+  font-size: 100%;
+  background: #999;
+}
+
+/* row */
+.row {
+  box-sizing: border-box;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.limiter {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.relative {
+  position: relative;
+}
+
+/* header
+======================================================*/
+.header {
+  padding: 20px;
+  background: #000;
+}
+
+.menu {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 8px;
+}
+.menu-link1 {
+  margin: 0 10px;
+}
+.menu-link2 {
+  margin: 0 100px 0 0;
+}
+.menu-link3 {
+  margin: 0 0 0 100px;
+}
+.menu-link4 {
+  margin: 0 10px;
+}
+
+.menu li a {
+  color: #10c5f2;
+  font-size: 1.3em;
+  font-weight: 100;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #fff;
+}
+
+.logo a {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -82px; /*regra: 164/2;*/
+  width: 164px;
+  height: 64px;
+  background: url("../img/logo.png") no-repeat;
+}
+
+/* banner
+======================================================*/
+.banner {
+  height: 700px;
+  background: url("../img/banner.jpg") center 0 no-repeat;
+  background-size: cover;
+}
+
+.banner-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  background: rgba(255,255,255,0.7);
+}
+
+.banner-text h1 {
+  padding: 10px 40px;
+  color: #666;
+  font-weight: 900;
+}
+.banner-text h1 span{
+  display: block;
+  margin-top: -14px;
+  font-size: 2.2em;
+  color: #000;
+}
+
+/* content
+======================================================*/
+.content {
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000), color-stop(100%,#999));
+}
+
+.content-box {
+  margin-top: -200px;
+  width: 100%;
+  height: 720px;
+  box-shadow: 0px 8px 10px 3px #000000;
+}
+
+.content-box_top-edge,
+.content-box_top-middle,
+.content-box_bottom {
+  float: left;
+  position: relative;
+}
+
+.content-box_top-edge {
+  width: 240px;
+  height: 480px;
+}
+.content-box_top-middle {
+  width: 480px;
+  height: 480px;
+}
+.content-box_bottom {
+  width: 240px;
+  height: 240px;
+}
+
+.content-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  color: #999;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+}
+.content-text span {
+  display: inline-block;
+  padding: 14px 10px;
+}
+
+a:hover .content-text {
+  background: rgba(16,197,242,0.9);
+  color: #fff;
+  text-shadow: 0 2px 1px #444;
+}
+
+/* footer
+======================================================*/
+.footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  background: #999;
+}
+
+.footer-inner {
+  padding: 20px;
+  background: #000;
+  box-shadow: 0px 0px 4px 0px #000000;
+  border-radius: 10px;
+}
+
+.sitemap {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.sitemap li {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+.sitemap li h4 {
+  font-size: .9em;
+  font-weight: 900;
+  color: #FFF;
+}
+
+.sitemap-links {
+  padding: 5px 0 0 5px;
+}
+
+.sitemap-links li {
+  display: block;
+  float: none;
+}
+
+.sitemap-links li a {
+  display: inline-block;
+  font-size: .8em;
+  color: #666;
+  text-decoration: none;
+}
+.sitemap-links li a:hover {
+  color: #00c0f1;
+}
+.social {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.social li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.social li a {
+  display: block;
+  margin: 0 20px 0 0;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook {
+  background: url('../img/facebook.png');
+}
+.twitter {
+  background: url('../img/twitter.png');
+}
+.instagram {
+  background: url('../img/instagram.png');
+}
+
+.footer-about {
+  margin: 20px auto 0;
+  text-align: center;
+  color: #fff;
+  font-size: .8em;
+  color: #fff;
+}

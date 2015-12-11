@@ -1,0 +1,169 @@
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+          padding: 0;
+          margin: 0;
+}
+
+body {
+  font-size: 100%; /* 16px */
+  font-family: Arial;
+  background: #f9f9f9;
+}
+
+img {
+  max-width: 100%; /*truque de imagens responsivas*/
+}
+
+
+.limiter {
+  margin: 0 auto;
+  max-width: 960px;
+  background: #fff;
+}
+
+.header {
+  margin: 0 auto;
+  color: #fff;
+  background: #43C0C0;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 20px;
+}
+
+.main {
+  clear: both;
+  overflow: auto;
+  background: #f1f2f1;
+}
+
+.sidebar {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  height: 100%;
+}
+
+.menu {
+  margin-left: 20px;
+}
+
+.menu li {
+  margin: 0 0 10px;
+  list-style: none;
+}
+
+.menu li a {
+  display: inline-block;
+  color: #111;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #e34;
+}
+
+.content {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 100%;
+  background: #B8CFE5;
+}
+
+.thumb {
+  float: left;
+  width: 33.333333333%;
+  padding: 5px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 20px;
+  background: #D2A5FB;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+  body {
+    background: rgba(255,0,0,0.5);
+  }
+}
+
+@media screen and (max-width: 789px) {
+  body {
+    background: rgba(0,233,0,0.5);
+  }
+  .thumb {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  body {
+    background: rgba(0,233,0,0.5);
+  }
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+  .menu li {
+    display: inline-block;
+    margin: 10px;
+  }
+  .content {
+     width: 100%;
+  }
+  .thumb {
+    width: 33.333333333%;
+  }
+}
+
+
+@media screen and (max-width: 534px) {
+  body {
+    font-size: 90%;
+    background: rgba(200,233,0,0.5);
+  }
+  .thumb {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  body {
+    font-size: 80%;
+    background: rgba(200,233,30,0.5);
+  }
+
+  .menu {
+    margin: 0;
+  }
+
+  .menu li {
+    display: block;
+    margin: 0;
+  }
+
+  .menu li a {
+    display: block;
+    margin-top: -1px;
+    padding: 10px;
+    background: #f1f1f1;
+    color: #43C0C0;
+    border: solid 1px #43C0C0;
+  }
+  .thumb {
+    width: 100%;
+  }
+}
+

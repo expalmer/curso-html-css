@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+  .header-logo {
+    top: 30px;
+    left: 50px;
+    width: 60px;
+  }
+  .banners {
+    margin-top: 96px;
+  }
+  .features,
+  .blog {
+    padding: 0 40px;
+  }
+  .feature {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 593px) {
+
+  body {
+    font-size: 13px;
+  }
+  .header {
+    position: static;
+    padding: 30px;
+  }
+  .header-logo {
+    position: static;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .header-menu {
+    margin: 20px 0 0;
+  }
+  .banners {
+    margin: 0;
+  }
+  .banner,
+  .product,
+  .post {
+    width: 100%;
+  }
+
+  .post {
+    margin-bottom: 20px;
+  }
+
+}

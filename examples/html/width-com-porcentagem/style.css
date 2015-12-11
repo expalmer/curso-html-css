@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  background: rgba(0,0,0,0.1);
+}
+
+.div-1-de-2 {
+  float: left;
+  width: 50%;
+}
+
+.div-1-de-3 {
+  float: left;
+  width: 33.333333333%;
+}
+
+.div-1-de-2 p, .div-1-de-3 p {
+  padding: 10px;
+}
+
+.bg-1 {
+  background: rgba(23,115,123,.5);
+}
+.bg-2 {
+  background: rgba(123,145,34,.5);
+}
+
+.bg-3 {
+  background: rgba(13,45,224,.5);
+}
+
+.clearfix {
+  overflow: auto;
+  clear: both ;
+}

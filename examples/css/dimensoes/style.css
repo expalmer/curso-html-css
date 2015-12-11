@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.limiter {
+  margin: 20px auto;
+  background: #ddd;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.rectangle {
+  margin: 10px;
+  padding: 50px;
+  background: #AB73E0;
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  margin: 0 auto;
+  background: #256E5C;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+.sem-box-sizing {
+  margin: 10px auto;
+  width: 700px;
+  padding: 20px;
+  border: solid 10px #e34;
+  background: rgba(3,144,115,0.3);
+}
+
+.com-box-sizing  {
+  margin: 10px auto;
+  width: 700px;
+  padding: 20px;
+  border: solid 10px #e34;
+  background: rgba(3,144,115,0.3);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.com-box-sizing-sem-borda  {
+  margin: 10px auto;
+  width: 700px;
+  padding: 20px;
+  background: rgba(3,144,115,0.3);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

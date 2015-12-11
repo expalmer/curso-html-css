@@ -1,0 +1,26 @@
+/*
+  selecinar elemento, classe e id
+  sobrescrever classes / efeito castata do último infomado
+  seletores a e,a > e, e:first-child, b + e
+*/
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+div {
+  background: #eee;
+}
+
+div {
+  background: #eed;
+}
+
+/*.oceanos {
+  background: #eee;
+}*/
+
+.oceanos > .humano {
+  background: #e43;
+}

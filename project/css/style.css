@@ -1,0 +1,250 @@
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+          padding: 0;
+          margin: 0;
+}
+
+body {
+  font-size: 100%;
+  font-family: Arial;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #666;
+}
+
+a:hover {
+  color: #000;
+}
+
+.limiter {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+/*
+ header
+=====================*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  background: rgba(255,255,255,0.9);
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.header-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 59px;
+}
+
+.header-menu {
+  text-align: center;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu li a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*
+ banner
+=====================*/
+.banners {
+  margin-top: 100px;
+}
+
+.banner {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/*
+ clearfix
+=====================*/
+.header,
+.banners,
+.features,
+.products,
+.blog,
+.posts {
+  overflow: auto;
+  clear: both;
+  width: 100%;
+}
+
+
+/*
+ features
+=====================*/
+.features {
+
+}
+.feature {
+  float: left;
+  width: 50%;
+}
+
+/*
+ products
+=====================*/
+.product {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.product a {
+  display: block;
+  text-decoration: none;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h1 {
+  margin: 10px 0;
+  font-size: .9em;
+}
+
+
+/*
+ title
+=====================*/
+.title h2 {
+  text-align: center;
+  margin: 40px auto 10px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.title p {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.title p span {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #dadada;
+}
+/*
+ post
+=====================*/
+.post {
+  float: left;
+  width: 33.333333333%;
+  padding: 0 10px;
+}
+
+.post a {
+  text-decoration: none;
+}
+
+.post a:hover {
+  color: #CBA6A8;
+}
+
+.post-category {
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: .7em;
+  color: #4C5F91;
+}
+
+.post h1 {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.post-time {
+  display: inline-block;
+  margin: 10px 0 14px;
+  color: #999;
+  font-weight: 100;
+  font-size: .875em;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.post-resume {
+  font-size: 1em;
+  color: #666;
+  text-align: justify;
+}
+
+/*
+ about
+=====================*/
+.about {
+  background-image: url('../img/mountain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about h1 {
+  padding: 140px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: .2em;
+}
+
+/*
+ footer
+=====================*/
+.footer {
+  padding: 60px 0;
+  text-align: center;
+  background: #000;
+  color: #999;
+  font-size: .8em;
+}
+
+/*margins*/
+
+.banners,
+.features,
+.blog {
+  margin-bottom: 20px;
+}
